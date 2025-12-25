@@ -1,0 +1,3 @@
+
+copy this to app env:
+RESEND_API_KEY=

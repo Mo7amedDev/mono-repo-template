@@ -6,14 +6,15 @@
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "check-types": "tsc --noEmit",
-    "build": "tsc",
+    "build": "pnpm clear && tsc",
     "dev": "tsc --watch",
     "generate": "prisma generate",
     "migrate:dev": "prisma migrate dev",
     "migrate:deploy": "prisma migrate deploy",
     "db:push": "prisma db push",
     "db:seed": "tsx seed.ts",
-    "refresh": "pnpm generate && pnpm build"
+    "refresh": "pnpm generate && pnpm build",
+    "clear":"rm tsconfig.tsbuildinfo && rm -r dist"
   },
   "keywords": [],
   "author": "",

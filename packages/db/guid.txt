@@ -1,0 +1,3 @@
+
+copy this to app env:
+DATABASE_URL="postgresql://postgres:password@localhost:5432/turbo-demo2?schema=public"

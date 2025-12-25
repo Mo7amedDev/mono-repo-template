@@ -1,5 +1,5 @@
  
-DATABASE_URL="postgresql://postgres:password@localhost:5432/database_template?schema=public"
+DATABASE_URL="postgresql://postgres:password@localhost:5432/turbo-demo2?schema=public"
 
 NEXTAUTH_SECRET=""#openssl rand -base64 32
 NEXT_PUBLIC_BASE_URL='http://localhost:3000'

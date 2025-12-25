@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "check-types": "tsc --noEmit",
-    "build": "pnpm clear && tsc",
+    "build": "tsc",
     "dev": "tsc --watch",
     "generate": "prisma generate",
     "migrate:dev": "prisma migrate dev",

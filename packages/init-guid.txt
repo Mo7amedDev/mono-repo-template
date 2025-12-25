@@ -1,0 +1,37 @@
+ 
+DATABASE_URL="postgresql://postgres:password@localhost:5432/database_template?schema=public"
+
+NEXTAUTH_SECRET=""#openssl rand -base64 32
+NEXT_PUBLIC_BASE_URL='http://localhost:3000'
+NEXTAUTH_URL=http://localhost:3000
+
+=================== Storage R2 =====================
+R2_ACCESS_KEY_ID=
+R2_SECRET_ACCESS_KEY=
+R2_BUCKET=uploads
+R2_ENDPOINT=
+R2_PUBLIC_URL=
+
+ 
+# ======================= QSTASH ===========================
+#QSTASH_URL=""
+#QSTASH_TOKEN=""
+#QSTASH_CURRENT_SIGNING_KEY=""
+#QSTASH_NEXT_SIGNING_KEY=""
+
+#===================== CLOUDINARY =========================
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=''
+CLOUDINARY_API_KEY=''
+CLOUDINARY_API_SECRET=''
+
+#================ Resend =================
+RESEND_API_KEY=''
+
+#============== LLM API KEY ====================
+OPENAI_API_KEY=''
+
+# ================== STRIPE ========================
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=''
+STRIPE_WEBHOOK_SECRET=''
+STRIPE_PUBLIC_KEY=''
+STRIPE_SECRET_KEY=''

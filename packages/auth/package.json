@@ -5,7 +5,7 @@
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "npx tsc",
+    "build": "rm tsconfig.tsbuildinfo && npx tsc",
     "check-types": "npx tsc --noEmit"
   },
   "keywords": [],

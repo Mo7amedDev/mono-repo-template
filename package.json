@@ -11,7 +11,11 @@
   "devDependencies": {
     "prettier": "^3.7.4",
     "turbo": "^2.7.1",
-    "typescript": "5.9.2"
+    "typescript": "5.9.2",
+    "eslint-config-next": "16.1.1"
+  },
+  "dependencies": {
+    "next": "16.1.1"
   },
   "packageManager": "pnpm@9.0.0",
   "engines": {

@@ -1,0 +1,4 @@
+/* packages/ui/src/styles.css */
+@import "tailwindcss";
+@import "./theme.css";
+

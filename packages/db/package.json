@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "check-types": "tsc --noEmit",
-    "build": "tsc",
+    "build": "rm tsconfig.tsbuildinfo &&tsc",
     "dev": "tsc --watch",
     "generate": "prisma generate",
     "migrate:dev": "prisma migrate dev",
